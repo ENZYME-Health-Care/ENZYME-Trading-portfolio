@@ -1,0 +1,762 @@
+[
+  {
+    "id": 1,
+    "name": "Albumin",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=600&h=450&fit=crop",
+    "description": "Clinical chemistry reagent for albumin determination in serum and plasma.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 1×100 ml | Approx. 100 tests"
+  },
+  {
+    "id": 2,
+    "name": "Alkaline Phosphatase (ALP) Kinetic UV",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&h=450&fit=crop",
+    "description": "Kinetic UV method reagent for alkaline phosphatase enzyme assay.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 4×20 ml / 4×50 ml | 80–200 tests"
+  },
+  {
+    "id": 3,
+    "name": "Amylase",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=600&h=450&fit=crop",
+    "description": "Reagent kit for amylase activity measurement in clinical laboratories.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 6×10 ml | Approx. 60 tests"
+  },
+  {
+    "id": 4,
+    "name": "Bilirubin Total",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1581595220892-b0739fa28a5b?w=600&h=450&fit=crop",
+    "description": "Reagent for total bilirubin determination in serum samples.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 2×100 ml | Approx. 100 tests"
+  },
+  {
+    "id": 5,
+    "name": "Bilirubin Direct",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1581093458791-9d42e287f2d2?w=600&h=450&fit=crop",
+    "description": "Direct (conjugated) bilirubin assay reagent for routine chemistry panels.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 2×100 ml | Approx. 100 tests"
+  },
+  {
+    "id": 6,
+    "name": "Glucose",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=600&h=450&fit=crop",
+    "description": "Glucose determination reagent for blood sugar testing in diagnostic labs.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 1×1000 ml / 4×250 ml | Approx. 1000 tests"
+  },
+  {
+    "id": 7,
+    "name": "Gamma-GT",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600&h=450&fit=crop",
+    "description": "Gamma-glutamyl transferase reagent for liver function assessment.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 4×20 ml | Approx. 80 tests"
+  },
+  {
+    "id": 8,
+    "name": "Calcium",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=600&h=450&fit=crop",
+    "description": "Calcium assay reagent for serum calcium measurement.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 2×50 ml | Approx. 100 tests"
+  },
+  {
+    "id": 9,
+    "name": "Cholesterol",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=450&fit=crop",
+    "description": "Total cholesterol reagent for lipid profile testing.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 2×50 ml / 4×100 ml | 100–400 tests"
+  },
+  {
+    "id": 10,
+    "name": "Cholesterol HDL",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=600&h=450&fit=crop",
+    "description": "HDL cholesterol reagent for lipid fraction analysis.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 100 ml | Approx. 100 tests"
+  },
+  {
+    "id": 11,
+    "name": "Chlorides",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&h=450&fit=crop",
+    "description": "Chloride ion assay reagent for electrolyte panels.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 2×50 ml | Approx. 100 tests"
+  },
+  {
+    "id": 12,
+    "name": "CK-MB",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1583912267550-d8743223c77c?w=600&h=450&fit=crop",
+    "description": "CK-MB cardiac marker reagent for myocardial enzyme testing.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 6×10 ml | Approx. 60 tests"
+  },
+  {
+    "id": 13,
+    "name": "Creatinine",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1579165466949-3180a3d058b3?w=600&h=450&fit=crop",
+    "description": "Creatinine assay reagent for kidney function testing. Also available from Chema-Italy.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain / Italy | Pack options: 2×100 ml, 4×125 ml"
+  },
+  {
+    "id": 14,
+    "name": "Iron-CRX",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&h=450&fit=crop",
+    "description": "Serum iron determination reagent for anemia and iron studies.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 2×50 ml | Approx. 100 tests"
+  },
+  {
+    "id": 15,
+    "name": "LDH",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=600&h=450&fit=crop",
+    "description": "Lactate dehydrogenase enzyme reagent for clinical chemistry.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 6×10 ml | Approx. 60 tests"
+  },
+  {
+    "id": 16,
+    "name": "Magnesium",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1581093458791-9d42e287f2d2?w=600&h=450&fit=crop&sat=-20",
+    "description": "Magnesium assay reagent for electrolyte and metabolic panels.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 6×50 ml | Approx. 300 tests"
+  },
+  {
+    "id": 17,
+    "name": "Phosphorus UV",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=600&h=450&fit=crop&sat=-30",
+    "description": "UV method phosphorus reagent for serum inorganic phosphate testing.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 2×50 ml | Approx. 100 tests"
+  },
+  {
+    "id": 18,
+    "name": "SGOT (AST) Kinetic/UV",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&h=450&fit=crop&sat=-40",
+    "description": "Aspartate aminotransferase (AST/SGOT) kinetic UV reagent for liver panels.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 4×20 ml / 4×50 ml | 80–200 tests"
+  },
+  {
+    "id": 19,
+    "name": "SGPT (ALT) Kinetic/UV",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=600&h=450&fit=crop&sat=-20",
+    "description": "Alanine aminotransferase (ALT/SGPT) kinetic UV reagent for liver function.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 4×20 ml / 4×50 ml | 80–200 tests"
+  },
+  {
+    "id": 20,
+    "name": "Total Protein",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1581595220892-b0739fa28a5b?w=600&h=450&fit=crop&sat=-10",
+    "description": "Total protein assay reagent for serum protein measurement.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 2×50 ml | Approx. 100 tests"
+  },
+  {
+    "id": 21,
+    "name": "Urinary Protein",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=600&h=450&fit=crop&sat=-30",
+    "description": "Urinary protein reagent for urine protein analysis.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 2×50 ml | Approx. 100 tests"
+  },
+  {
+    "id": 22,
+    "name": "Triglyceride",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600&h=450&fit=crop&sat=-40",
+    "description": "Triglyceride assay reagent for complete lipid profile testing.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 2×50 ml / 4×100 ml | 100–400 tests"
+  },
+  {
+    "id": 23,
+    "name": "Urea UV / Urea Color",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=600&h=450&fit=crop&sat=-20",
+    "description": "Urea reagents (UV and colorimetric) for renal function testing.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 4×20 ml / 4×100 ml | 80–400 tests"
+  },
+  {
+    "id": 24,
+    "name": "Uric Acid",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=450&fit=crop&sat=-30",
+    "description": "Uric acid assay reagent for gout and metabolic screening.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 5×20 ml / 5×50 ml | 100–250 tests"
+  },
+  {
+    "id": 25,
+    "name": "Lipase",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=600&h=450&fit=crop&sat=-20",
+    "description": "Lipase enzyme reagent for pancreatic function assessment.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 6×10 ml | Approx. 48 tests"
+  },
+  {
+    "id": 26,
+    "name": "Hemoglobin",
+    "category": "Biochemistry Test Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&h=450&fit=crop&sat=-40",
+    "description": "Hemoglobin reagent for blood hemoglobin estimation.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 1×50 ml | Approx. 800 tests"
+  },
+  {
+    "id": 27,
+    "name": "Blood Grouping ABD (Anti-A, B, D)",
+    "category": "Serology Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1615461066159-fea0960485d5?w=600&h=450&fit=crop",
+    "description": "Blood grouping reagents Anti-A, Anti-B and Anti-D for ABO/Rh typing.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 10 ml each | Approx. 100 tests"
+  },
+  {
+    "id": 28,
+    "name": "ASO Latex",
+    "category": "Serology Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1583912267550-d8743223c77c?w=600&h=450&fit=crop&sat=-10",
+    "description": "ASO latex reagent vial for antistreptolysin-O screening.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 5 ml | Approx. 100 tests"
+  },
+  {
+    "id": 29,
+    "name": "CRP Latex",
+    "category": "Serology Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1579165466949-3180a3d058b3?w=600&h=450&fit=crop&sat=-20",
+    "description": "CRP latex reagent for C-reactive protein qualitative/semi-quantitative testing.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 5 ml | Approx. 100 tests"
+  },
+  {
+    "id": 30,
+    "name": "RA Latex",
+    "category": "Serology Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=600&h=450&fit=crop&sat=-30",
+    "description": "Rheumatoid factor (RA) latex reagent for arthritis screening.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 5 ml | Approx. 100 tests"
+  },
+  {
+    "id": 31,
+    "name": "Pregnancy Latex",
+    "category": "Serology Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&h=450&fit=crop&sat=-50",
+    "description": "Pregnancy latex test reagent for hCG detection.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 5 ml | Approx. 100 tests"
+  },
+  {
+    "id": 32,
+    "name": "RPR Latex",
+    "category": "Serology Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1581093458791-9d42e287f2d2?w=600&h=450&fit=crop&hue=10",
+    "description": "RPR latex reagent for syphilis screening.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 5 ml | Approx. 250 tests"
+  },
+  {
+    "id": 33,
+    "name": "WIDAL Test (TO, TH, AH, BH)",
+    "category": "Serology Kits",
+    "brand": "Diakit",
+    "image": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=600&h=450&fit=crop&hue=20",
+    "description": "WIDAL test antigens for typhoid and paratyphoid screening.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Spain | Pack: 5 ml | Approx. 100 tests"
+  },
+  {
+    "id": 34,
+    "name": "Albumin with Standard",
+    "category": "Manual Analyzer Reagents",
+    "brand": "Gesan",
+    "image": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&h=450&fit=crop&hue=30",
+    "description": "Gesan Italy albumin reagent with standard for semi-automated analyzers.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Italy | Pack: R 4×30 ml + 5 ml / 2×30 ml + 5 ml"
+  },
+  {
+    "id": 35,
+    "name": "Alkaline Phosphatase (Gesan)",
+    "category": "Manual Analyzer Reagents",
+    "brand": "Gesan",
+    "image": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=600&h=450&fit=crop&hue=40",
+    "description": "Two-reagent ALP kit for semi-automated biochemistry analyzers.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Italy | R1 6×40 ml + R2 6×10 ml | Approx. 300 tests"
+  },
+  {
+    "id": 36,
+    "name": "ALT-GPT (Gesan)",
+    "category": "Manual Analyzer Reagents",
+    "brand": "Gesan",
+    "image": "https://images.unsplash.com/photo-1581595220892-b0739fa28a5b?w=600&h=450&fit=crop&hue=50",
+    "description": "ALT/GPT reagent kits in multiple pack sizes for analyzer use.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Italy | Multiple pack sizes | 150–300 tests"
+  },
+  {
+    "id": 37,
+    "name": "AST-GOT (Gesan)",
+    "category": "Manual Analyzer Reagents",
+    "brand": "Gesan",
+    "image": "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=600&h=450&fit=crop&hue=60",
+    "description": "AST/GOT reagent kits for semi-automated clinical chemistry.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Italy | Multiple pack sizes | 150–300 tests"
+  },
+  {
+    "id": 38,
+    "name": "Amylase (Gesan)",
+    "category": "Manual Analyzer Reagents",
+    "brand": "Gesan",
+    "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600&h=450&fit=crop&hue=70",
+    "description": "Amylase reagent for semi-automated analyzers in various pack sizes.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Italy | Pack: 5×10 ml / 3×10 ml / 2×10 ml"
+  },
+  {
+    "id": 39,
+    "name": "Cholesterol with Standard (Gesan)",
+    "category": "Manual Analyzer Reagents",
+    "brand": "Gesan",
+    "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=600&h=450&fit=crop&hue=80",
+    "description": "Cholesterol reagent with calibrator for lipid testing on analyzers.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Italy | Pack: 3×50 ml / 2×50 ml / 1×50 ml + standard"
+  },
+  {
+    "id": 40,
+    "name": "Creatinine with Standard (Gesan)",
+    "category": "Manual Analyzer Reagents",
+    "brand": "Gesan",
+    "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=450&fit=crop&hue=90",
+    "description": "Two-reagent creatinine kit with standard for renal panels.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Italy | R1 + R2 packs | 100–300 tests"
+  },
+  {
+    "id": 41,
+    "name": "Glucose with Standard (Gesan)",
+    "category": "Manual Analyzer Reagents",
+    "brand": "Gesan",
+    "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=600&h=450&fit=crop&hue=100",
+    "description": "Glucose reagent with standard for semi-automated analyzers.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Italy | Multiple pack sizes | 50–300 tests"
+  },
+  {
+    "id": 42,
+    "name": "HDL Precipitant with Standard",
+    "category": "Manual Analyzer Reagents",
+    "brand": "Gesan",
+    "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&h=450&fit=crop&hue=110",
+    "description": "HDL precipitant reagent for HDL cholesterol separation and assay.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Italy | Pack: 3×100 ml / 2×100 ml / 1×100 ml"
+  },
+  {
+    "id": 43,
+    "name": "CK NAC (Gesan)",
+    "category": "Manual Analyzer Reagents",
+    "brand": "Gesan",
+    "image": "https://images.unsplash.com/photo-1583912267550-d8743223c77c?w=600&h=450&fit=crop&hue=120",
+    "description": "Creatine kinase NAC-activated reagent for cardiac enzyme testing.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Italy | R1 + R2 | 20–80 tests"
+  },
+  {
+    "id": 44,
+    "name": "LDL Direct (Gesan)",
+    "category": "Manual Analyzer Reagents",
+    "brand": "Gesan",
+    "image": "https://images.unsplash.com/photo-1579165466949-3180a3d058b3?w=600&h=450&fit=crop&hue=130",
+    "description": "Direct LDL cholesterol assay reagent for lipid profiling.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Italy | R1 1×30 ml + R2 1×10 ml | Approx. 100 tests"
+  },
+  {
+    "id": 45,
+    "name": "Lipase with Standard (Gesan)",
+    "category": "Manual Analyzer Reagents",
+    "brand": "Gesan",
+    "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=600&h=450&fit=crop&hue=140",
+    "description": "Lipase reagent with standard for pancreatic enzyme analysis.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Italy | R1 2×20 ml + R2 1×8 ml + 1 ml | Approx. 40 tests"
+  },
+  {
+    "id": 46,
+    "name": "TIBC (Gesan)",
+    "category": "Manual Analyzer Reagents",
+    "brand": "Gesan",
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&h=450&fit=crop&hue=150",
+    "description": "Total iron-binding capacity reagent kit for iron studies.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Italy | R1 1×110 ml + R2 1×30 gm | Approx. 100 tests"
+  },
+  {
+    "id": 47,
+    "name": "Wash / Cleaning Solution",
+    "category": "Manual Analyzer Reagents",
+    "brand": "Gesan",
+    "image": "https://images.unsplash.com/photo-1581093458791-9d42e287f2d2?w=600&h=450&fit=crop&hue=160",
+    "description": "Concentrated wash and cleaning solution for biochemistry analyzers.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Italy | Pack: 1×50 ml concentrated"
+  },
+  {
+    "id": 48,
+    "name": "TPHA Latex Complete Set",
+    "category": "Serology Kits",
+    "brand": "Gesan",
+    "image": "https://images.unsplash.com/photo-1615461066159-fea0960485d5?w=600&h=450&fit=crop&sat=-30",
+    "description": "TPHA latex complete set for syphilis confirmatory serology.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Italy | Pack: 1×5 ml | Approx. 100 tests"
+  },
+  {
+    "id": 49,
+    "name": "VDRL Complete Set",
+    "category": "Serology Kits",
+    "brand": "Gesan",
+    "image": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=600&h=450&fit=crop&sat=20",
+    "description": "VDRL complete set for syphilis screening serology.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Italy | Pack: 1×5 ml | Approx. 250 tests"
+  },
+  {
+    "id": 50,
+    "name": "RPR Carbon Slide Complete Set",
+    "category": "Serology Kits",
+    "brand": "Gesan",
+    "image": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&h=450&fit=crop&sat=20",
+    "description": "RPR carbon slide complete set for rapid syphilis screening.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Italy | Pack: 1×5 ml | Approx. 150 tests"
+  },
+  {
+    "id": 51,
+    "name": "RF / CRP / ASO Latex Slide Sets",
+    "category": "Serology Kits",
+    "brand": "Gesan",
+    "image": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=600&h=450&fit=crop&sat=20",
+    "description": "Complete latex slide sets for RF, CRP and ASO serological testing.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Italy | Pack: 1×5 ml each | Approx. 100 tests"
+  },
+  {
+    "id": 52,
+    "name": "T3 / T4 / FT3 / FT4 EIA",
+    "category": "ELISA Reagents",
+    "brand": "DIASINO",
+    "image": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?w=600&h=450&fit=crop",
+    "description": "Thyroid hormone ELISA microplate kits (T3, T4, Free T3, Free T4).",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Manufacturer: DIASINO, China | Package: 96 tests"
+  },
+  {
+    "id": 53,
+    "name": "TSH EIA Microplate",
+    "category": "ELISA Reagents",
+    "brand": "DIASINO",
+    "image": "https://images.unsplash.com/photo-1581595220892-b0739fa28a5b?w=600&h=450&fit=crop&sat=30",
+    "description": "TSH enzyme immunoassay microplate kit for thyroid stimulating hormone.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Manufacturer: DIASINO, China | Package: 96 tests"
+  },
+  {
+    "id": 54,
+    "name": "LH / FSH EIA",
+    "category": "ELISA Reagents",
+    "brand": "DIASINO",
+    "image": "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=600&h=450&fit=crop&sat=30",
+    "description": "Luteinizing hormone and follicle-stimulating hormone ELISA kits.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Manufacturer: DIASINO, China | Package: 96 tests"
+  },
+  {
+    "id": 55,
+    "name": "Prolactin EIA",
+    "category": "ELISA Reagents",
+    "brand": "DIASINO",
+    "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600&h=450&fit=crop&sat=30",
+    "description": "Prolactin ELISA microplate assay for reproductive hormone testing.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Manufacturer: DIASINO, China | Package: 96 tests"
+  },
+  {
+    "id": 56,
+    "name": "Vitamin D EIA",
+    "category": "ELISA Reagents",
+    "brand": "DIASINO",
+    "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=600&h=450&fit=crop&sat=30",
+    "description": "Vitamin D ELISA microplate kit for nutritional and bone health assessment.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Manufacturer: DIASINO, China | Package: 96 tests"
+  },
+  {
+    "id": 57,
+    "name": "AMH EIA",
+    "category": "ELISA Reagents",
+    "brand": "DIASINO",
+    "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=450&fit=crop&sat=40",
+    "description": "Anti-Müllerian hormone ELISA kit for fertility and ovarian reserve testing.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Manufacturer: DIASINO, China | Package: 96 tests"
+  },
+  {
+    "id": 58,
+    "name": "Toxoplasma IgG / IgM ELISA",
+    "category": "Infectious Disease Tests",
+    "brand": "DIASINO",
+    "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=600&h=450&fit=crop&sat=40",
+    "description": "Toxoplasma gondii IgG and IgM ELISA kits for TORCH screening.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Manufacturer: DIASINO, China | Package: 96 tests"
+  },
+  {
+    "id": 59,
+    "name": "Rubella IgG / IgM ELISA",
+    "category": "Infectious Disease Tests",
+    "brand": "DIASINO",
+    "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&h=450&fit=crop&sat=40",
+    "description": "Rubella IgG and IgM ELISA kits for prenatal and infectious screening.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Manufacturer: DIASINO, China | Package: 96 tests"
+  },
+  {
+    "id": 60,
+    "name": "HSV I & II IgG / IgM ELISA",
+    "category": "Infectious Disease Tests",
+    "brand": "DIASINO",
+    "image": "https://images.unsplash.com/photo-1583912267550-d8743223c77c?w=600&h=450&fit=crop&sat=40",
+    "description": "Herpes simplex virus type I and II IgG/IgM ELISA microplate kits.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Manufacturer: DIASINO, China | Package: 96 tests"
+  },
+  {
+    "id": 61,
+    "name": "HBsAg ELISA",
+    "category": "Infectious Disease Tests",
+    "brand": "ENZO",
+    "image": "https://images.unsplash.com/photo-1579165466949-3180a3d058b3?w=600&h=450&fit=crop&sat=50",
+    "description": "Hepatitis B surface antigen ELISA kit for blood screening and diagnostics.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Manufacturer: ENZO – USA | Package: 96 tests / 480 tests"
+  },
+  {
+    "id": 62,
+    "name": "HBsAb / Anti-HBs ELISA",
+    "category": "Infectious Disease Tests",
+    "brand": "ENZO",
+    "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=600&h=450&fit=crop&sat=50",
+    "description": "Hepatitis B antibody ELISA including quantitative Anti-HBs options.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Manufacturer: ENZO – USA | Package: 96 tests"
+  },
+  {
+    "id": 63,
+    "name": "HBeAg / HBeAb / HBcAb ELISA",
+    "category": "Infectious Disease Tests",
+    "brand": "ENZO",
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&h=450&fit=crop&sat=50",
+    "description": "Hepatitis B panel ELISA kits: HBeAg, HBeAb, HBcAb and HBcAb IgM.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Manufacturer: ENZO – USA | Package: 96 tests"
+  },
+  {
+    "id": 64,
+    "name": "Anti-HCV / HCV IgM ELISA",
+    "category": "Infectious Disease Tests",
+    "brand": "ENZO",
+    "image": "https://images.unsplash.com/photo-1581093458791-9d42e287f2d2?w=600&h=450&fit=crop&sat=50",
+    "description": "Hepatitis C virus antibody and IgM ELISA kits for laboratory screening.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Manufacturer: ENZO – USA | Package: 96 tests / 480 tests"
+  },
+  {
+    "id": 65,
+    "name": "HAV IgM / HEV IgM ELISA",
+    "category": "Infectious Disease Tests",
+    "brand": "ENZO",
+    "image": "https://images.unsplash.com/photo-1615461066159-fea0960485d5?w=600&h=450&fit=crop&sat=50",
+    "description": "Hepatitis A and Hepatitis E IgM ELISA kits for acute infection detection.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Manufacturer: ENZO – USA | Package: 96 tests"
+  },
+  {
+    "id": 66,
+    "name": "Anti-HIV ELISA",
+    "category": "Infectious Disease Tests",
+    "brand": "ENZO",
+    "image": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=600&h=450&fit=crop&sat=60",
+    "description": "Anti-HIV ELISA kit for blood bank and diagnostic laboratory screening.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Manufacturer: ENZO – USA | Package: 96 tests / 480 tests"
+  },
+  {
+    "id": 67,
+    "name": "Maxitex Duplex PF Surgical Gloves",
+    "category": "Surgical Gloves & Consumables",
+    "brand": "Maxitex",
+    "image": "https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=600&h=450&fit=crop",
+    "description": "Powder-free duplex surgical gloves in sizes 6.5, 7.0 and 7.5.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Sizes: 6.5 / 7.0 / 7.5 | Pack: 25 Set/Box"
+  },
+  {
+    "id": 68,
+    "name": "Maxitex Neuro PF Gloves",
+    "category": "Surgical Gloves & Consumables",
+    "brand": "Maxitex",
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&h=450&fit=crop",
+    "description": "Powder-free neurosurgery surgical gloves for precision procedures.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Sizes: 6.5 / 7.0 / 7.5 | Pack: 50 Pair/Box"
+  },
+  {
+    "id": 69,
+    "name": "Maxitex PF Surgical Gloves",
+    "category": "Surgical Gloves & Consumables",
+    "brand": "Maxitex",
+    "image": "https://images.unsplash.com/photo-1584515933487-779824d29309?w=600&h=450&fit=crop",
+    "description": "Standard powder-free surgical gloves for general surgical use.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Sizes: 6.5 / 7.0 / 7.5 | Pack: 50 Pair/Box"
+  },
+  {
+    "id": 70,
+    "name": "Sur-G Glove / Sur-G Eco",
+    "category": "Surgical Gloves & Consumables",
+    "brand": "Sur-G",
+    "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&h=450&fit=crop",
+    "description": "Sur-G and Sur-G Eco surgical gloves for hospital and clinic use.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Sizes: 6.5 / 7.0 / 7.5 | Pack: 50 Pair/Box"
+  },
+  {
+    "id": 71,
+    "name": "Nuzone X2 Gloves",
+    "category": "Surgical Gloves & Consumables",
+    "brand": "Nuzone",
+    "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?w=600&h=450&fit=crop",
+    "description": "Nuzone X2 surgical gloves available in sizes 7.0 and 7.5.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Sizes: 7.0 / 7.5 | Pack: 50 Pair/Box"
+  },
+  {
+    "id": 72,
+    "name": "Exa Nitrile Examination Gloves",
+    "category": "Surgical Gloves & Consumables",
+    "brand": "Exa",
+    "image": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=600&h=450&fit=crop",
+    "description": "Nitrile examination gloves in Small, Medium and Large sizes.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Sizes: S / M / L | Pack: 100 pcs/Box"
+  },
+  {
+    "id": 73,
+    "name": "Blood Collection Vacuum PET Tube",
+    "category": "Surgical Gloves & Consumables",
+    "brand": "Generic",
+    "image": "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=600&h=450&fit=crop",
+    "description": "Vacuum PET blood collection tubes — Red, Lavender, Black, Grey (2 ml / 4 ml).",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Colors: Red / Lavender / Black / Grey | 2 ml & 4 ml | 100 pcs/Box"
+  },
+  {
+    "id": 74,
+    "name": "Vacuum Butterfly Needle 23G",
+    "category": "Surgical Gloves & Consumables",
+    "brand": "Generic",
+    "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=600&h=450&fit=crop",
+    "description": "Blood collection vacuum butterfly needles, 23 gauge.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Gauge: 23G | Pack: 100 pcs/Box"
+  },
+  {
+    "id": 75,
+    "name": "Blood Transfusion Set",
+    "category": "Surgical Gloves & Consumables",
+    "brand": "Rumson",
+    "image": "https://images.unsplash.com/photo-1581595220892-b0739fa28a5b?w=600&h=450&fit=crop",
+    "description": "Blood transfusion sets available from Rumson and China origin options.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Rumson / China | Pack: 25 pcs/Box"
+  },
+  {
+    "id": 76,
+    "name": "Blood Bag Single",
+    "category": "Surgical Gloves & Consumables",
+    "brand": "Generic",
+    "image": "https://images.unsplash.com/photo-1615461066159-fea0960485d5?w=600&h=450&fit=crop&sat=-40",
+    "description": "Single blood collection bags sourced from Belgium and India.",
+    "catalog": "assets/catalog/brochure.pdf",
+    "specification": "Origin: Belgium / India | Pack: 5 pcs/Box"
+  }
+]

@@ -1,0 +1,13 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A7BC8"/>
+      <stop offset="100%" style="stop-color:#059669"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" fill="url(#g)"/>
+  <circle cx="765" cy="120" r="150" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="135" cy="450" r="180" fill="rgba(255,255,255,0.06)"/>
+  <text x="50%" y="48%" text-anchor="middle" fill="rgba(255,255,255,0.95)" font-family="Arial,sans-serif" font-size="41" font-weight="600">project 2</text>
+  <text x="50%" y="58%" text-anchor="middle" fill="rgba(255,255,255,0.65)" font-family="Arial,sans-serif" font-size="25">ENZYME Trading — Replace this image</text>
+</svg>

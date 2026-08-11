@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Biochemistry Test Kits",
+    "image": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=800&h=500&fit=crop",
+    "description": "Diakit (Spain) clinical chemistry reagents for routine laboratory testing."
+  },
+  {
+    "id": 2,
+    "name": "Manual Analyzer Reagents",
+    "image": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=500&fit=crop",
+    "description": "Gesan (Italy) reagents for semi-automated biochemistry analyzers."
+  },
+  {
+    "id": 3,
+    "name": "Serology Kits",
+    "image": "https://images.unsplash.com/photo-1581595220892-b0739fa28a5b?w=800&h=500&fit=crop",
+    "description": "Latex and slide test kits including ASO, CRP, RA, RPR, WIDAL and more."
+  },
+  {
+    "id": 4,
+    "name": "ELISA Reagents",
+    "image": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=800&h=500&fit=crop",
+    "description": "Hormone and specialty ELISA microplate assays for diagnostic laboratories."
+  },
+  {
+    "id": 5,
+    "name": "Infectious Disease Tests",
+    "image": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?w=800&h=500&fit=crop",
+    "description": "ELISA kits for hepatitis, HIV, TORCH and related infectious markers."
+  },
+  {
+    "id": 6,
+    "name": "Surgical Gloves & Consumables",
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&h=500&fit=crop",
+    "description": "Surgical gloves, blood collection tubes, transfusion sets and related consumables."
+  }
+]

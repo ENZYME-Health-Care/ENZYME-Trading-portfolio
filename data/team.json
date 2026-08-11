@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Md. Hasan Ali",
+    "designation": "Chief Executive Officer",
+    "role": "CEO",
+    "photo": "https://i.pravatar.cc/300?img=12",
+    "linkedin": "#",
+    "email": "Enzymetrading05@gmail.com"
+  },
+  {
+    "name": "Sadia Islam",
+    "designation": "Managing Director",
+    "role": "Management",
+    "photo": "https://i.pravatar.cc/300?img=5",
+    "linkedin": "#",
+    "email": "sadia@enzymetrading.com"
+  },
+  {
+    "name": "Engr. Rafiqul Islam",
+    "designation": "Head of Engineering",
+    "role": "Engineers",
+    "photo": "https://i.pravatar.cc/300?img=33",
+    "linkedin": "#",
+    "email": "rafiq@enzymetrading.com"
+  },
+  {
+    "name": "Tanvir Ahmed",
+    "designation": "Technical Support Lead",
+    "role": "Technical Team",
+    "photo": "https://i.pravatar.cc/300?img=15",
+    "linkedin": "#",
+    "email": "tanvir@enzymetrading.com"
+  },
+  {
+    "name": "Nusrat Jahan",
+    "designation": "Operations Manager",
+    "role": "Management",
+    "photo": "https://i.pravatar.cc/300?img=9",
+    "linkedin": "#",
+    "email": "nusrat@enzymetrading.com"
+  },
+  {
+    "name": "Imran Chowdhury",
+    "designation": "Field Service Engineer",
+    "role": "Engineers",
+    "photo": "https://i.pravatar.cc/300?img=68",
+    "linkedin": "#",
+    "email": "imran@enzymetrading.com"
+  },
+  {
+    "name": "Farzana Akter",
+    "designation": "Sales & Business Development",
+    "role": "Management",
+    "photo": "https://i.pravatar.cc/300?img=20",
+    "linkedin": "#",
+    "email": "farzana@enzymetrading.com"
+  },
+  {
+    "name": "Mahmud Hasan",
+    "designation": "Biomedical Engineer",
+    "role": "Technical Team",
+    "photo": "https://i.pravatar.cc/300?img=52",
+    "linkedin": "#",
+    "email": "mahmud@enzymetrading.com"
+  }
+]

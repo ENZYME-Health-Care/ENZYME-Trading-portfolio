@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ENZYME Trading — Latest Healthcare Technology. A trusted source for quality service & supply in health technology based in Dhaka, Bangladesh.">
+  <meta name="keywords" content="ENZYME Trading, healthcare technology, medical equipment, laboratory equipment, Bangladesh, diagnostic devices">
+  <meta name="author" content="ENZYME Trading">
+  <meta name="theme-color" content="#0F5FA8">
+  <meta property="og:title" content="ENZYME Trading | Latest Healthcare Technology">
+  <meta property="og:description" content="A trusted source for quality service & supply in health technology.">
+  <meta property="og:type" content="website">
+  <title>ENZYME Trading | Latest Healthcare Technology</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: { DEFAULT: '#0B8BC7', dark: '#0870A0', light: '#00ADEF' },
+            secondary: { DEFAULT: '#00ADEF', dark: '#0090C7' },
+            accent: { DEFAULT: '#80BC42', dark: '#6AA332' },
+          },
+          fontFamily: {
+            sans: ['DM Sans', 'system-ui', 'sans-serif'],
+            display: ['Outfit', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/logo/logo.png" type="image/png">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loader" role="status" aria-label="Loading">
+    <div class="text-center">
+      <div class="loader-ring mx-auto mb-4"></div>
+      <p class="text-sm font-medium" style="color:var(--primary)">ENZYME Trading</p>
+    </div>
+  </div>
+
+  <!-- Scroll Progress -->
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Sticky side contact -->
+  <a href="#contact" class="sticky-contact" aria-label="Contact us">CONTACT</a>
+
+  <!-- ========== NAVBAR ========== -->
+  <header id="navbar" class="nav-transparent">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 h-full flex items-center justify-between gap-4">
+      <!-- Logo -->
+      <a href="#home" class="flex items-center gap-2 shrink-0" aria-label="ENZYME Trading home">
+        <img src="assets/logo/logo.png" alt="ENZYME Trading" class="site-logo nav-logo-white" width="48" height="48">
+        <img src="assets/logo/logo.png" alt="ENZYME Trading" class="site-logo nav-logo-color hidden" width="48" height="48">
+        <span class="nav-brand-text font-display font-bold text-lg tracking-tight hidden sm:inline">ENZYME <span class="font-medium opacity-80">Trading</span></span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden lg:flex items-center gap-7" aria-label="Main navigation">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+
+        <!-- Products mega menu -->
+        <div class="mega-trigger relative">
+          <a href="#products" class="nav-link inline-flex items-center gap-1">
+            Products <i class="fa-solid fa-chevron-down text-[10px]"></i>
+          </a>
+          <div class="mega-menu absolute top-full left-1/2 -translate-x-1/2 pt-4 w-[520px]">
+            <div class="rounded-2xl shadow-xl border p-5 grid grid-cols-2 gap-3" style="background:var(--bg);border-color:var(--border)">
+              <a href="#categories" class="flex gap-3 p-3 rounded-xl hover:bg-[var(--bg-soft)] transition">
+                <span class="icon-box !w-10 !h-10 !text-sm"><i class="fa-solid fa-flask"></i></span>
+                <span>
+                  <span class="block text-sm font-semibold" style="color:var(--text)">Categories</span>
+                  <span class="block text-xs" style="color:var(--text-muted)">Browse by type</span>
+                </span>
+              </a>
+              <a href="#products" class="flex gap-3 p-3 rounded-xl hover:bg-[var(--bg-soft)] transition">
+                <span class="icon-box !w-10 !h-10 !text-sm"><i class="fa-solid fa-boxes-stacked"></i></span>
+                <span>
+                  <span class="block text-sm font-semibold" style="color:var(--text)">All Products</span>
+                  <span class="block text-xs" style="color:var(--text-muted)">Search & filter</span>
+                </span>
+              </a>
+              <a href="#catalog" class="flex gap-3 p-3 rounded-xl hover:bg-[var(--bg-soft)] transition">
+                <span class="icon-box !w-10 !h-10 !text-sm"><i class="fa-solid fa-file-pdf"></i></span>
+                <span>
+                  <span class="block text-sm font-semibold" style="color:var(--text)">Catalog</span>
+                  <span class="block text-xs" style="color:var(--text-muted)">Download brochure</span>
+                </span>
+              </a>
+              <a href="#brands" class="flex gap-3 p-3 rounded-xl hover:bg-[var(--bg-soft)] transition">
+                <span class="icon-box !w-10 !h-10 !text-sm"><i class="fa-solid fa-handshake"></i></span>
+                <span>
+                  <span class="block text-sm font-semibold" style="color:var(--text)">Brands</span>
+                  <span class="block text-xs" style="color:var(--text-muted)">Our partners</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#team" class="nav-link">Team</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <button type="button" id="dark-toggle" class="w-10 h-10 rounded-full flex items-center justify-center transition hover:bg-white/10 nav-link" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <a href="#contact" class="btn btn-primary hidden md:inline-flex text-sm py-2.5 px-5">Get a Quote</a>
+        <button type="button" id="mobile-toggle" class="lg:hidden w-10 h-10 flex items-center justify-center nav-link" aria-label="Open menu">
+          <i class="fa-solid fa-bars text-xl"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile overlay & menu -->
+  <div id="mobile-overlay" class="fixed inset-0 bg-black/50 z-[1100] hidden lg:hidden"></div>
+  <aside id="mobile-menu" class="fixed top-0 right-0 h-full w-[280px] z-[1101] p-6 overflow-y-auto lg:hidden" style="background:var(--bg)" aria-label="Mobile menu">
+    <div class="flex justify-between items-center mb-8">
+      <img src="assets/logo/logo.png" alt="ENZYME Trading" class="site-logo h-10 w-10">
+      <button type="button" id="mobile-close" class="w-10 h-10" aria-label="Close menu"><i class="fa-solid fa-xmark text-xl"></i></button>
+    </div>
+    <nav class="flex flex-col gap-1">
+      <a href="#home" class="py-3 px-3 rounded-lg font-medium hover:bg-[var(--bg-soft)]">Home</a>
+      <a href="#about" class="py-3 px-3 rounded-lg font-medium hover:bg-[var(--bg-soft)]">About</a>
+      <a href="#categories" class="py-3 px-3 rounded-lg font-medium hover:bg-[var(--bg-soft)]">Categories</a>
+      <a href="#products" class="py-3 px-3 rounded-lg font-medium hover:bg-[var(--bg-soft)]">Products</a>
+      <a href="#services" class="py-3 px-3 rounded-lg font-medium hover:bg-[var(--bg-soft)]">Services</a>
+      <a href="#industries" class="py-3 px-3 rounded-lg font-medium hover:bg-[var(--bg-soft)]">Industries</a>
+      <a href="#gallery" class="py-3 px-3 rounded-lg font-medium hover:bg-[var(--bg-soft)]">Gallery</a>
+      <a href="#team" class="py-3 px-3 rounded-lg font-medium hover:bg-[var(--bg-soft)]">Team</a>
+      <a href="#testimonials" class="py-3 px-3 rounded-lg font-medium hover:bg-[var(--bg-soft)]">Testimonials</a>
+      <a href="#faq" class="py-3 px-3 rounded-lg font-medium hover:bg-[var(--bg-soft)]">FAQ</a>
+      <a href="#contact" class="py-3 px-3 rounded-lg font-medium hover:bg-[var(--bg-soft)]">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-primary w-full mt-6">Get a Quote</a>
+  </aside>
+
+  <main>
+    <!-- ========== 1. HERO ========== -->
+    <section id="home" class="hero">
+      <div class="hero-pattern" aria-hidden="true"></div>
+      <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-32 md:py-40">
+        <div class="max-w-2xl reveal fade-up">
+          <p class="inline-flex items-center gap-2 text-sm font-semibold tracking-wider uppercase text-cyan-200 mb-5">
+            <span class="w-8 h-px bg-cyan-300"></span>
+            Healthcare Technology Partner
+          </p>
+          <h1 class="font-display text-4xl sm:text-5xl md:text-6xl font-bold leading-tight mb-5">
+            ENZYME Trading
+          </h1>
+          <p class="text-xl sm:text-2xl text-cyan-100 font-medium mb-4">Latest Healthcare Technology</p>
+          <p class="text-base sm:text-lg text-white/80 leading-relaxed mb-8 max-w-xl">
+            A trusted source for quality service &amp; supply in health technology — delivering reliable medical and laboratory solutions across Bangladesh.
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <a href="#products" class="btn btn-primary">Explore Products</a>
+            <a href="#contact" class="btn btn-secondary">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/60 animate-bounce hidden md:block" aria-hidden="true">
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+    </section>
+
+    <!-- ========== 2. ABOUT ========== -->
+    <section id="about" class="section">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          <div class="reveal slide-left">
+            <div class="relative rounded-2xl overflow-hidden shadow-xl">
+              <img src="assets/images/gallery-office-1.svg" alt="ENZYME Trading office" class="w-full aspect-[4/3] object-cover" loading="lazy" width="640" height="480">
+              <div class="absolute bottom-4 left-4 right-4 glass rounded-xl p-4 text-white">
+                <p class="text-sm font-semibold">Based in Uttara, Dhaka</p>
+                <p class="text-xs text-white/80 mt-1">Serving healthcare providers nationwide</p>
+              </div>
+            </div>
+          </div>
+          <div class="reveal slide-right">
+            <span class="section-label">About Company</span>
+            <h2 class="section-title font-display">Trusted Healthcare Technology Supply</h2>
+            <p class="section-desc mb-6">
+              ENZYME Trading is a healthcare technology company dedicated to supplying quality medical equipment, laboratory instruments, and related services. We support hospitals, clinics, diagnostic centers, and research institutions with dependable products and professional support.
+            </p>
+            <div class="space-y-4">
+              <div class="flex gap-4 p-4 rounded-xl" style="background:var(--bg-soft)">
+                <span class="icon-box"><i class="fa-solid fa-bullseye"></i></span>
+                <div>
+                  <h3 class="font-semibold mb-1">Our Mission</h3>
+                  <p class="text-sm" style="color:var(--text-muted)">To deliver reliable healthcare technology solutions that improve clinical outcomes and operational efficiency for every partner we serve.</p>
+                </div>
+              </div>
+              <div class="flex gap-4 p-4 rounded-xl" style="background:var(--bg-soft)">
+                <span class="icon-box"><i class="fa-solid fa-eye"></i></span>
+                <div>
+                  <h3 class="font-semibold mb-1">Our Vision</h3>
+                  <p class="text-sm" style="color:var(--text-muted)">To become Bangladesh’s preferred partner for modern medical and laboratory technology — recognized for quality, integrity, and service excellence.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Why Choose Us / Strengths -->
+        <div class="mt-20">
+          <div class="text-center max-w-2xl mx-auto mb-12 reveal fade-up">
+            <span class="section-label">Why Choose Us</span>
+            <h2 class="section-title font-display">Company Strengths</h2>
+            <p class="section-desc mx-auto">We combine quality products, technical expertise, and responsive after-sales care to support your healthcare operations.</p>
+          </div>
+          <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="card p-6 reveal fade-up delay-1">
+              <span class="icon-box mb-4"><i class="fa-solid fa-certificate"></i></span>
+              <h3 class="font-semibold mb-2">Quality Assured</h3>
+              <p class="text-sm" style="color:var(--text-muted)">Carefully selected equipment meeting international healthcare standards.</p>
+            </div>
+            <div class="card p-6 reveal fade-up delay-2">
+              <span class="icon-box mb-4"><i class="fa-solid fa-headset"></i></span>
+              <h3 class="font-semibold mb-2">Expert Support</h3>
+              <p class="text-sm" style="color:var(--text-muted)">Trained engineers for installation, training, and technical assistance.</p>
+            </div>
+            <div class="card p-6 reveal fade-up delay-3">
+              <span class="icon-box mb-4"><i class="fa-solid fa-truck-fast"></i></span>
+              <h3 class="font-semibold mb-2">Reliable Supply</h3>
+              <p class="text-sm" style="color:var(--text-muted)">Efficient procurement and delivery for hospitals and laboratories.</p>
+            </div>
+            <div class="card p-6 reveal fade-up delay-4">
+              <span class="icon-box mb-4"><i class="fa-solid fa-handshake"></i></span>
+              <h3 class="font-semibold mb-2">Long-term Partnership</h3>
+              <p class="text-sm" style="color:var(--text-muted)">After-sales service and maintenance that keeps your systems running.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Company History -->
+        <div class="mt-16 card p-8 reveal fade-up">
+          <h3 class="font-display text-xl font-semibold mb-3">Company History</h3>
+          <p style="color:var(--text-muted);line-height:1.75">
+            Founded with a focus on bridging global healthcare technology with local clinical needs, ENZYME Trading has grown into a trusted supplier for medical and laboratory solutions in Bangladesh. Our journey continues as we expand our product portfolio and strengthen service capabilities for healthcare providers nationwide.
+            <!-- Replace this paragraph with your real company history -->
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 3. STATISTICS ========== -->
+    <section id="stats" class="section section-alt">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="grid grid-cols-2 lg:grid-cols-5 gap-6">
+          <div class="stat-card reveal fade-up delay-1">
+            <div class="stat-number" data-count="10" data-suffix="+">0</div>
+            <div class="stat-label">Years of Experience</div>
+          </div>
+          <div class="stat-card reveal fade-up delay-2">
+            <div class="stat-number" data-count="250" data-suffix="+">0</div>
+            <div class="stat-label">Clients Served</div>
+          </div>
+          <div class="stat-card reveal fade-up delay-3">
+            <div class="stat-number" data-count="500" data-suffix="+">0</div>
+            <div class="stat-label">Products</div>
+          </div>
+          <div class="stat-card reveal fade-up delay-4">
+            <div class="stat-number" data-count="180" data-suffix="+">0</div>
+            <div class="stat-label">Projects Completed</div>
+          </div>
+          <div class="stat-card reveal fade-up col-span-2 lg:col-span-1">
+            <div class="stat-number" data-count="5" data-suffix="+">0</div>
+            <div class="stat-label">Countries Served</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 4. PRODUCT CATEGORIES ========== -->
+    <section id="categories" class="section">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="text-center max-w-2xl mx-auto mb-12 reveal fade-up">
+          <span class="section-label">Our Range</span>
+          <h2 class="section-title font-display">Product Categories</h2>
+          <p class="section-desc mx-auto">Explore our curated categories of medical and laboratory technology.</p>
+        </div>
+        <div id="categories-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Loaded dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 5. PRODUCTS ========== -->
+    <section id="products" class="section section-alt">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="text-center max-w-2xl mx-auto mb-10 reveal fade-up">
+          <span class="section-label">Equipment</span>
+          <h2 class="section-title font-display">Our Products</h2>
+
+          <p class="section-desc mx-auto">Search, filter, and explore our product lineup.</p>
+        </div>
+
+        <div class="flex flex-col md:flex-row md:items-center gap-4 mb-6 reveal fade-up">
+          <div class="relative flex-1 max-w-md">
+            <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-gray-400"></i>
+            <input type="search" id="product-search" class="form-input pl-11" placeholder="Search products, brands…" aria-label="Search products">
+          </div>
+          <p id="products-count" class="text-sm" style="color:var(--text-muted)"></p>
+        </div>
+
+        <div id="product-filters" class="flex flex-wrap gap-2 mb-8 reveal fade-up">
+          <!-- Category filters loaded dynamically -->
+        </div>
+
+        <div id="products-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
+          <!-- Products loaded dynamically -->
+        </div>
+
+        <div id="products-pagination" class="flex justify-center flex-wrap gap-2"></div>
+      </div>
+    </section>
+
+    <!-- ========== 6. PRODUCT CATALOG ========== -->
+    <section id="catalog" class="section">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="rounded-3xl overflow-hidden relative reveal zoom catalog-banner">
+          <div class="relative px-8 py-14 md:px-16 md:py-16 flex flex-col md:flex-row items-center justify-between gap-8 text-white">
+            <div class="max-w-xl text-center md:text-left">
+              <h2 class="font-display text-2xl md:text-3xl font-bold mb-3">Product Catalog &amp; Brochure</h2>
+              <p class="text-white/80 leading-relaxed">Download our product brochure for an overview of equipment categories, featured solutions, and service offerings. Replace the PDF in <code class="text-xs text-cyan-200">assets/catalog/brochure.pdf</code> with your final catalog.</p>
+            </div>
+            <a href="assets/catalog/brochure.pdf" class="btn btn-accent shrink-0" download>
+              <i class="fa-solid fa-file-arrow-down"></i> Download Brochure
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 7. BRANDS ========== -->
+    <section id="brands" class="section section-alt overflow-hidden">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 mb-10">
+        <div class="text-center max-w-2xl mx-auto reveal fade-up">
+          <span class="section-label">Partners</span>
+          <h2 class="section-title font-display">Trusted Brands</h2>
+          <p class="section-desc mx-auto">We work with reputable healthcare technology brands.</p>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="overflow-hidden">
+          <div id="brand-track" class="brand-track py-4">
+            <!-- Brands loaded dynamically -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 8. CERTIFICATIONS ========== -->
+    <section id="certifications" class="section">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="text-center max-w-2xl mx-auto mb-12 reveal fade-up">
+          <span class="section-label">Quality</span>
+          <h2 class="section-title font-display">Certifications &amp; Compliance</h2>
+          <p class="section-desc mx-auto">Placeholder certificates — replace images in <code class="text-xs">assets/images/cert-*.svg</code> with your official documents.</p>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <article class="card p-6 text-center reveal fade-up delay-1">
+            <img src="assets/images/cert-iso.svg" alt="ISO Certification" class="h-40 mx-auto object-contain mb-4" loading="lazy" width="200" height="160">
+            <h3 class="font-semibold">ISO Certified</h3>
+            <p class="text-sm mt-2" style="color:var(--text-muted)">Quality management system standards for consistent processes.</p>
+          </article>
+          <article class="card p-6 text-center reveal fade-up delay-2">
+            <img src="assets/images/cert-fda.svg" alt="FDA related products" class="h-40 mx-auto object-contain mb-4" loading="lazy" width="200" height="160">
+            <h3 class="font-semibold">FDA Related Products</h3>
+            <p class="text-sm mt-2" style="color:var(--text-muted)">Products sourced with applicable regulatory compliance in mind.</p>
+          </article>
+          <article class="card p-6 text-center reveal fade-up delay-3">
+            <img src="assets/images/cert-ce.svg" alt="CE Marking" class="h-40 mx-auto object-contain mb-4" loading="lazy" width="200" height="160">
+            <h3 class="font-semibold">CE Marking</h3>
+            <p class="text-sm mt-2" style="color:var(--text-muted)">European conformity for applicable medical devices and equipment.</p>
+          </article>
+          <article class="card p-6 text-center reveal fade-up delay-4">
+            <img src="assets/images/cert-gmp.svg" alt="GMP Standards" class="h-40 mx-auto object-contain mb-4" loading="lazy" width="200" height="160">
+            <h3 class="font-semibold">GMP Standards</h3>
+            <p class="text-sm mt-2" style="color:var(--text-muted)">Good manufacturing practice aligned supply for healthcare use.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 9. SERVICES ========== -->
+    <section id="services" class="section section-alt">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="text-center max-w-2xl mx-auto mb-12 reveal fade-up">
+          <span class="section-label">What We Offer</span>
+          <h2 class="section-title font-display">Our Services</h2>
+          <p class="section-desc mx-auto">End-to-end support from installation to after-sales care for your healthcare technology.</p>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="card p-6 reveal fade-up delay-1">
+            <span class="icon-box mb-4"><i class="fa-solid fa-screwdriver-wrench"></i></span>
+            <h3 class="font-semibold text-lg mb-2">Installation</h3>
+            <p class="text-sm leading-relaxed" style="color:var(--text-muted)">Professional on-site installation and commissioning of medical and laboratory equipment.</p>
+          </div>
+          <div class="card p-6 reveal fade-up delay-2">
+            <span class="icon-box mb-4"><i class="fa-solid fa-calendar-check"></i></span>
+            <h3 class="font-semibold text-lg mb-2">Maintenance</h3>
+            <p class="text-sm leading-relaxed" style="color:var(--text-muted)">Scheduled preventive maintenance to maximize uptime and equipment lifespan.</p>
+          </div>
+          <div class="card p-6 reveal fade-up delay-3">
+            <span class="icon-box mb-4"><i class="fa-solid fa-wrench"></i></span>
+            <h3 class="font-semibold text-lg mb-2">Repair</h3>
+            <p class="text-sm leading-relaxed" style="color:var(--text-muted)">Prompt diagnosis and repair services to restore critical systems quickly.</p>
+          </div>
+          <div class="card p-6 reveal fade-up delay-1">
+            <span class="icon-box mb-4"><i class="fa-solid fa-comments"></i></span>
+            <h3 class="font-semibold text-lg mb-2">Technical Support</h3>
+            <p class="text-sm leading-relaxed" style="color:var(--text-muted)">Expert guidance for operators, troubleshooting, and application support.</p>
+          </div>
+          <div class="card p-6 reveal fade-up delay-2">
+            <span class="icon-box mb-4"><i class="fa-solid fa-hand-holding-heart"></i></span>
+            <h3 class="font-semibold text-lg mb-2">After Sales Service</h3>
+            <p class="text-sm leading-relaxed" style="color:var(--text-muted)">Ongoing partnership with spare parts, training, and responsive customer care.</p>
+          </div>
+          <div class="card p-6 reveal fade-up delay-3">
+            <span class="icon-box mb-4"><i class="fa-solid fa-clipboard-list"></i></span>
+            <h3 class="font-semibold text-lg mb-2">Consultation</h3>
+            <p class="text-sm leading-relaxed" style="color:var(--text-muted)">Needs assessment and equipment recommendations tailored to your facility.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 10. INDUSTRIES ========== -->
+    <section id="industries" class="section">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="text-center max-w-2xl mx-auto mb-12 reveal fade-up">
+          <span class="section-label">Sectors</span>
+          <h2 class="section-title font-display">Industries We Serve</h2>
+          <p class="section-desc mx-auto">Supporting healthcare and research organizations with the right technology for every setting.</p>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
+          <div class="card p-5 text-center reveal fade-up"><span class="icon-box mx-auto mb-3"><i class="fa-solid fa-hospital"></i></span><h3 class="font-semibold text-sm">Hospitals</h3></div>
+          <div class="card p-5 text-center reveal fade-up delay-1"><span class="icon-box mx-auto mb-3"><i class="fa-solid fa-stethoscope"></i></span><h3 class="font-semibold text-sm">Diagnostic Centers</h3></div>
+          <div class="card p-5 text-center reveal fade-up delay-2"><span class="icon-box mx-auto mb-3"><i class="fa-solid fa-house-medical"></i></span><h3 class="font-semibold text-sm">Clinics</h3></div>
+          <div class="card p-5 text-center reveal fade-up delay-3"><span class="icon-box mx-auto mb-3"><i class="fa-solid fa-microscope"></i></span><h3 class="font-semibold text-sm">Laboratories</h3></div>
+          <div class="card p-5 text-center reveal fade-up"><span class="icon-box mx-auto mb-3"><i class="fa-solid fa-flask-vial"></i></span><h3 class="font-semibold text-sm">Research Centers</h3></div>
+          <div class="card p-5 text-center reveal fade-up delay-1"><span class="icon-box mx-auto mb-3"><i class="fa-solid fa-graduation-cap"></i></span><h3 class="font-semibold text-sm">Universities</h3></div>
+          <div class="card p-5 text-center reveal fade-up delay-2"><span class="icon-box mx-auto mb-3"><i class="fa-solid fa-building"></i></span><h3 class="font-semibold text-sm">Healthcare Orgs</h3></div>
+          <div class="card p-5 text-center reveal fade-up delay-3"><span class="icon-box mx-auto mb-3"><i class="fa-solid fa-syringe"></i></span><h3 class="font-semibold text-sm">Pharma &amp; Biotech</h3></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 11. COUNTRIES SERVED ========== -->
+    <section id="countries" class="section section-alt">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="text-center max-w-2xl mx-auto mb-12 reveal fade-up">
+          <span class="section-label">Global Reach</span>
+          <h2 class="section-title font-display">Countries Served</h2>
+          <p class="section-desc mx-auto">Placeholder coverage data — update with your actual markets and partners.</p>
+        </div>
+        <div class="grid lg:grid-cols-2 gap-10 items-center">
+          <div class="world-map-wrap reveal slide-left">
+            <!-- Simplified world map illustration -->
+            <svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" aria-label="World map illustration" role="img">
+              <rect width="800" height="400" fill="transparent"/>
+              <ellipse cx="200" cy="160" rx="90" ry="70" fill="#0F5FA8" opacity="0.25"/>
+              <ellipse cx="380" cy="140" rx="70" ry="55" fill="#0F5FA8" opacity="0.3"/>
+              <ellipse cx="500" cy="180" rx="110" ry="80" fill="#0F5FA8" opacity="0.35"/>
+              <ellipse cx="620" cy="220" rx="50" ry="40" fill="#10B981" opacity="0.5"/>
+              <ellipse cx="580" cy="200" rx="35" ry="28" fill="#06B6D4" opacity="0.6"/>
+              <!-- Bangladesh highlight pin -->
+              <circle cx="580" cy="200" r="8" fill="#10B981"/>
+              <circle cx="580" cy="200" r="14" fill="none" stroke="#10B981" stroke-width="2" opacity="0.5">
+                <animate attributeName="r" values="10;22;10" dur="2.5s" repeatCount="indefinite"/>
+                <animate attributeName="opacity" values="0.6;0;0.6" dur="2.5s" repeatCount="indefinite"/>
+              </circle>
+              <text x="580" y="250" text-anchor="middle" fill="#0F5FA8" font-size="14" font-weight="600" font-family="Outfit,sans-serif">Bangladesh (HQ)</text>
+            </svg>
+          </div>
+          <div class="grid sm:grid-cols-2 gap-4 reveal slide-right">
+            <div class="card p-5"><h3 class="font-semibold mb-1 flex items-center gap-2"><i class="fa-solid fa-location-dot text-primary"></i> Bangladesh</h3><p class="text-sm" style="color:var(--text-muted)">Headquarters — full service coverage</p></div>
+            <div class="card p-5"><h3 class="font-semibold mb-1 flex items-center gap-2"><i class="fa-solid fa-location-dot text-secondary"></i> India</h3><p class="text-sm" style="color:var(--text-muted)">Partner network — placeholder</p></div>
+            <div class="card p-5"><h3 class="font-semibold mb-1 flex items-center gap-2"><i class="fa-solid fa-location-dot text-accent"></i> Nepal</h3><p class="text-sm" style="color:var(--text-muted)">Supply corridor — placeholder</p></div>
+            <div class="card p-5"><h3 class="font-semibold mb-1 flex items-center gap-2"><i class="fa-solid fa-location-dot text-primary"></i> UAE</h3><p class="text-sm" style="color:var(--text-muted)">Sourcing hub — placeholder</p></div>
+            <div class="card p-5 sm:col-span-2"><h3 class="font-semibold mb-1 flex items-center gap-2"><i class="fa-solid fa-globe text-secondary"></i> Expanding</h3><p class="text-sm" style="color:var(--text-muted)">Additional markets under development — update this list with your real countries.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 12. GALLERY ========== -->
+    <section id="gallery" class="section">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="text-center max-w-2xl mx-auto mb-10 reveal fade-up">
+          <span class="section-label">Showcase</span>
+          <h2 class="section-title font-display">Gallery</h2>
+          <p class="section-desc mx-auto">Office, warehouse, products, installations, projects &amp; events. Edit <code class="text-xs">data/gallery.json</code>.</p>
+        </div>
+        <div id="gallery-filters" class="flex flex-wrap justify-center gap-2 mb-8 reveal fade-up"></div>
+        <div id="gallery-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"></div>
+      </div>
+    </section>
+
+    <!-- ========== 13. MANAGEMENT TEAM ========== -->
+    <section id="team" class="section section-alt">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="text-center max-w-2xl mx-auto mb-12 reveal fade-up">
+          <span class="section-label">Leadership</span>
+          <h2 class="section-title font-display">Management Team</h2>
+          <p class="section-desc mx-auto">Placeholder profiles — update names, photos, and roles.</p>
+        </div>
+        <div id="team-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+      </div>
+    </section>
+
+    <!-- ========== 14. TESTIMONIALS ========== -->
+    <section id="testimonials" class="section">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="text-center max-w-2xl mx-auto mb-12 reveal fade-up">
+          <span class="section-label">Feedback</span>
+          <h2 class="section-title font-display">Client Testimonials</h2>
+          <p class="section-desc mx-auto">What our partners say. Manage reviews in <code class="text-xs">data/testimonials.json</code>.</p>
+        </div>
+        <div class="relative max-w-4xl mx-auto reveal fade-up">
+          <div id="testimonials-slider"></div>
+          <div class="flex items-center justify-center gap-4 mt-8">
+            <button type="button" id="testimonial-prev" class="page-btn" aria-label="Previous testimonial"><i class="fa-solid fa-chevron-left"></i></button>
+            <div id="testimonial-dots" class="flex gap-2 items-center"></div>
+            <button type="button" id="testimonial-next" class="page-btn" aria-label="Next testimonial"><i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 15. ACHIEVEMENTS ========== -->
+    <section id="achievements" class="section section-alt">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6">
+        <div class="text-center mb-12 reveal fade-up">
+          <span class="section-label">Milestones</span>
+          <h2 class="section-title font-display">Achievements &amp; Recognition</h2>
+          <p class="section-desc mx-auto">Timeline placeholders — replace with your real awards and milestones.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal slide-right">
+            <div class="timeline-year">2016</div>
+            <h3 class="font-semibold mb-1">Company Founded</h3>
+            <p class="text-sm" style="color:var(--text-muted)">ENZYME Trading established in Dhaka with a focus on healthcare technology supply.</p>
+          </div>
+          <div class="timeline-item reveal slide-right delay-1">
+            <div class="timeline-year">2018</div>
+            <h3 class="font-semibold mb-1">Expanded Product Portfolio</h3>
+            <p class="text-sm" style="color:var(--text-muted)">Introduced laboratory analyzers and sterilization systems to serve diagnostic centers.</p>
+          </div>
+          <div class="timeline-item reveal slide-right delay-2">
+            <div class="timeline-year">2021</div>
+            <h3 class="font-semibold mb-1">Service Network Growth</h3>
+            <p class="text-sm" style="color:var(--text-muted)">Strengthened after-sales and technical support capabilities across key regions.</p>
+          </div>
+          <div class="timeline-item reveal slide-right delay-3">
+            <div class="timeline-year">2024</div>
+            <h3 class="font-semibold mb-1">Industry Recognition</h3>
+            <p class="text-sm" style="color:var(--text-muted)">Recognized by partner institutions for reliable supply and project delivery. (Placeholder)</p>
+          </div>
+          <div class="timeline-item reveal slide-right">
+            <div class="timeline-year">Today</div>
+            <h3 class="font-semibold mb-1">Continuing Innovation</h3>
+            <p class="text-sm" style="color:var(--text-muted)">Expanding brands, certifications, and digital engagement for healthcare partners.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FAQ ========== -->
+    <section id="faq" class="section">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6">
+        <div class="text-center mb-12 reveal fade-up">
+          <span class="section-label">Help</span>
+          <h2 class="section-title font-display">Frequently Asked Questions</h2>
+          <p class="section-desc mx-auto">Edit questions in <code class="text-xs">data/faq.json</code>.</p>
+        </div>
+        <div id="faq-list"></div>
+      </div>
+    </section>
+
+    <!-- ========== 16. CONTACT ========== -->
+    <section id="contact" class="section section-alt">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="text-center max-w-2xl mx-auto mb-12 reveal fade-up">
+          <span class="section-label">Get In Touch</span>
+          <h2 class="section-title font-display">Contact Us</h2>
+          <p class="section-desc mx-auto">Reach our Dhaka office for quotations, support, and partnership enquiries.</p>
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-10">
+          <!-- Info -->
+          <div class="reveal slide-left space-y-6">
+            <div class="card p-6 space-y-5">
+              <div class="flex gap-4">
+                <span class="icon-box"><i class="fa-solid fa-location-dot"></i></span>
+                <div>
+                  <h3 class="font-semibold mb-1">Office Address</h3>
+                  <p class="text-sm leading-relaxed" style="color:var(--text-muted)">
+                    Flat# B05, House#75, Road#13,<br>
+                    Sector#10, Uttara Model Town,<br>
+                    Dhaka-1230, Bangladesh
+                  </p>
+                </div>
+              </div>
+              <div class="flex gap-4">
+                <span class="icon-box"><i class="fa-solid fa-envelope"></i></span>
+                <div>
+                  <h3 class="font-semibold mb-1">Email</h3>
+                  <a href="mailto:Enzymetrading05@gmail.com" data-company-email class="text-sm" style="color:var(--primary)">Enzymetrading05@gmail.com</a>
+                </div>
+              </div>
+              <div class="flex gap-4">
+                <span class="icon-box"><i class="fa-solid fa-phone"></i></span>
+                <div>
+                  <h3 class="font-semibold mb-1">Phone</h3>
+                  <a href="tel:+8801XXXXXXXXX" data-company-phone class="text-sm" style="color:var(--primary)">+880 1889 147550</a>
+                  <p class="text-xs mt-1" style="color:var(--text-muted)">Replace with your real phone number in js/app.js</p>
+                </div>
+              </div>
+              <div class="flex gap-4">
+                <span class="icon-box"><i class="fa-solid fa-clock"></i></span>
+                <div>
+                  <h3 class="font-semibold mb-1">Working Hours</h3>
+                  <p class="text-sm" style="color:var(--text-muted)">Sunday – Thursday: 9:00 AM – 6:00 PM<br>Friday &amp; Saturday: Closed (or by appointment)</p>
+                </div>
+              </div>
+              <div class="flex gap-3 pt-2">
+                <a href="#" class="w-10 h-10 rounded-full flex items-center justify-center" style="background:var(--bg-muted);color:var(--primary)" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="w-10 h-10 rounded-full flex items-center justify-center" style="background:var(--bg-muted);color:var(--primary)" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" class="w-10 h-10 rounded-full flex items-center justify-center" style="background:var(--bg-muted);color:var(--primary)" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" data-whatsapp class="w-10 h-10 rounded-full flex items-center justify-center" style="background:var(--bg-muted);color:#25D366" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+              </div>
+            </div>
+
+            <!-- Map: Uttara, Dhaka -->
+            <div class="map-embed reveal fade-up">
+              <iframe
+                title="ENZYME Trading office location — Uttara, Dhaka"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps?q=Uttara+Model+Town+Sector+10+Dhaka+Bangladesh&output=embed">
+              </iframe>
+            </div>
+          </div>
+
+          <!-- Form -->
+          <div class="card p-6 md:p-8 reveal slide-right">
+            <h3 class="font-display text-xl font-semibold mb-6">Send a Message</h3>
+            <form id="contact-form" class="space-y-4" novalidate>
+              <div class="grid sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="name" class="block text-sm font-medium mb-1.5">Full Name *</label>
+                  <input type="text" id="name" name="name" class="form-input" required placeholder="Your name" autocomplete="name">
+                </div>
+                <div>
+                  <label for="email" class="block text-sm font-medium mb-1.5">Email *</label>
+                  <input type="email" id="email" name="email" class="form-input" required placeholder="you@example.com" autocomplete="email">
+                </div>
+              </div>
+              <div class="grid sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="phone" class="block text-sm font-medium mb-1.5">Phone</label>
+                  <input type="tel" id="phone" name="phone" class="form-input" placeholder="+880 …" autocomplete="tel">
+                </div>
+                <div>
+                  <label for="subject" class="block text-sm font-medium mb-1.5">Subject</label>
+                  <input type="text" id="subject" name="subject" class="form-input" placeholder="Product enquiry">
+                </div>
+              </div>
+              <div>
+                <label for="message" class="block text-sm font-medium mb-1.5">Message *</label>
+                <textarea id="message" name="message" rows="5" class="form-input resize-y" required placeholder="Tell us about your requirements…"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-full sm:w-auto">
+                <i class="fa-solid fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== 17. FOOTER ========== -->
+  <footer class="footer pt-16 pb-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+        <div>
+          <img src="assets/logo/logo.png" alt="ENZYME Trading" class="site-logo h-12 w-12 mb-4" width="48" height="48">
+          <p class="text-sm leading-relaxed text-slate-400 mb-4">Latest Healthcare Technology — a trusted source for quality service &amp; supply in health technology.</p>
+          <div class="flex gap-3">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" data-whatsapp aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">Products &amp; Services</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#catalog">Download Catalog</a></li>
+            <li><a href="#brands">Partner Brands</a></li>
+            <li><a href="#services">Installation</a></li>
+            <li><a href="#services">Maintenance</a></li>
+            <li><a href="#services">Technical Support</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">Newsletter</h4>
+          <p class="text-sm text-slate-400 mb-4">Subscribe for product updates and healthcare technology news.</p>
+          <form id="newsletter-form" class="flex gap-2">
+            <input type="email" name="email" required placeholder="Your email" class="form-input !py-2.5 text-sm" style="background:#1A2332;border-color:#2A3548;color:#fff">
+            <button type="submit" class="btn btn-primary !py-2.5 !px-4 shrink-0" aria-label="Subscribe"><i class="fa-solid fa-arrow-right"></i></button>
+          </form>
+          <p class="text-xs text-slate-500 mt-4">
+            <a href="mailto:Enzymetrading05@gmail.com" data-company-email>Enzymetrading05@gmail.com</a>
+          </p>
+        </div>
+      </div>
+      <div class="border-t border-slate-800 pt-6 flex flex-col sm:flex-row justify-between gap-3 text-sm text-slate-500">
+        <p>&copy; <span id="year"></span> ENZYME Trading. All rights reserved.</p>
+        <p>Dhaka, Bangladesh</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Product Details Modal -->
+  <div id="product-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="product-modal-title">
+    <div class="modal-panel relative">
+      <button type="button" id="product-modal-close" class="absolute top-4 right-4 z-10 w-10 h-10 rounded-full flex items-center justify-center shadow-md" style="background:var(--bg)" aria-label="Close">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div id="product-modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button type="button" id="lightbox-close" class="absolute top-6 right-6 text-white text-2xl w-12 h-12" aria-label="Close lightbox">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <div class="text-center">
+      <img id="lightbox-img" src="" alt="">
+      <p id="lightbox-caption" class="text-white mt-4 text-sm"></p>
+    </div>
+  </div>
+
+  <!-- Floating buttons -->
+  <a href="https://wa.me/8801XXXXXXXXX" data-whatsapp class="float-btn float-whatsapp" aria-label="Chat on WhatsApp" target="_blank" rel="noopener">
+    <i class="fa-brands fa-whatsapp text-2xl"></i>
+  </a>
+  <a href="tel:+8801XXXXXXXXX" data-company-phone class="float-btn float-call" aria-label="Call us">
+    <i class="fa-solid fa-phone"></i>
+  </a>
+  <button type="button" id="back-to-top" class="float-btn" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script>
+    // Navbar logo swap on scroll + copyright year
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const nav = document.getElementById('navbar');
+    const logoWhite = document.querySelector('.nav-logo-white');
+    const logoColor = document.querySelector('.nav-logo-color');
+    const syncLogo = () => {
+      const solid = nav.classList.contains('nav-solid');
+      logoWhite?.classList.toggle('hidden', solid);
+      logoColor?.classList.toggle('hidden', !solid);
+    };
+    new MutationObserver(syncLogo).observe(nav, { attributes: true, attributeFilter: ['class'] });
+    syncLogo();
+  </script>
+
+  <!-- Scripts (order matters) -->
+  <script src="js/products.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

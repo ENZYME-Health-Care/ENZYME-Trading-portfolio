@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Dr. Ayesha Rahman",
+    "designation": "Chief Pathologist",
+    "company": "Uttara Diagnostic Center",
+    "photo": "https://i.pravatar.cc/300?img=47",
+    "review": "ENZYME Trading supplied our laboratory with reliable analyzers and provided outstanding installation support. Their after-sales service keeps our operations running smoothly."
+  },
+  {
+    "name": "Md. Karim Hossain",
+    "designation": "Hospital Administrator",
+    "company": "Green Life Hospital",
+    "photo": "https://i.pravatar.cc/300?img=11",
+    "review": "From procurement to commissioning, the team demonstrated professionalism and deep product knowledge. We trust them for all our healthcare technology needs."
+  },
+  {
+    "name": "Prof. Nasrin Akter",
+    "designation": "Head of Research",
+    "company": "National Institute of Biotechnology",
+    "photo": "https://i.pravatar.cc/300?img=32",
+    "review": "The cold-chain storage and lab equipment we received exceeded expectations. ENZYME Trading understands the precision requirements of research environments."
+  },
+  {
+    "name": "Dr. Farhan Ahmed",
+    "designation": "Medical Director",
+    "company": "City Clinic Network",
+    "photo": "https://i.pravatar.cc/300?img=56",
+    "review": "Responsive technical support and quality products at competitive pricing. A trusted partner for expanding our diagnostic capabilities across multiple clinics."
+  },
+  {
+    "name": "Dr. Salma Begum",
+    "designation": "Laboratory Manager",
+    "company": "Popular Diagnostic Centre",
+    "photo": "https://i.pravatar.cc/300?img=25",
+    "review": "Their hematology and chemistry analyzers have improved our turnaround time significantly. Training sessions for our technicians were clear and practical."
+  },
+  {
+    "name": "Engr. Jahidul Islam",
+    "designation": "Facilities Director",
+    "company": "Apollo Hospitals Dhaka",
+    "photo": "https://i.pravatar.cc/300?img=60",
+    "review": "ENZYME Trading delivered sterilization systems on schedule and handled a complex multi-floor installation without disrupting hospital operations."
+  }
+]
