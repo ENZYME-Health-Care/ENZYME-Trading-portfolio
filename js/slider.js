@@ -52,18 +52,18 @@ const SliderModule = (() => {
         .map(
           (t, i) => `
         <div class="testimonial-slide ${i === 0 ? "active" : ""}" data-index="${i}">
-          <div class="max-w-3xl mx-auto text-center px-4">
+          <div class="max-w-3xl mx-auto text-center px-1 sm:px-4 min-w-0">
             <div class="flex justify-center mb-6">
               <img src="${t.photo}" alt="${t.name}"
-                   class="w-20 h-20 rounded-full object-cover border-4 border-white shadow-lg"
+                   class="w-16 h-16 sm:w-20 sm:h-20 rounded-full object-cover border-4 border-white shadow-lg"
                    width="80" height="80" loading="lazy"
                    onerror="this.src='assets/images/testimonial-1.svg'">
             </div>
             <div class="text-cyan-400 mb-4 text-lg">
               <i class="fa-solid fa-quote-left"></i>
             </div>
-            <p class="text-lg md:text-xl leading-relaxed mb-6" style="color:var(--text)">${t.review}</p>
-            <h4 class="font-semibold text-lg" style="font-family:Outfit,sans-serif">${t.name}</h4>
+            <p class="text-base sm:text-lg md:text-xl leading-relaxed mb-6" style="color:var(--text)">${t.review}</p>
+            <h4 class="font-semibold text-base sm:text-lg" style="font-family:Outfit,sans-serif">${t.name}</h4>
             <p class="text-sm mt-1" style="color:var(--text-muted)">${t.designation} — ${t.company}</p>
           </div>
         </div>`

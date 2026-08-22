@@ -418,9 +418,9 @@ function initSmoothScroll() {
       if (!target) return;
       e.preventDefault();
       target.scrollIntoView({ behavior: "smooth", block: "start" });
-      // Close mobile menu if open
       document.getElementById("mobile-menu")?.classList.remove("open");
       document.getElementById("mobile-overlay")?.classList.add("hidden");
+      document.body.style.overflow = "";
     });
   });
 }
@@ -446,6 +446,15 @@ function initMobileMenu() {
   toggle?.addEventListener("click", open);
   closeBtn?.addEventListener("click", close);
   overlay?.addEventListener("click", close);
+  menu?.querySelectorAll("a").forEach((link) => link.addEventListener("click", close));
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth >= 1280) close();
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") close();
+  });
 }
 
 /* ----- Sync contact links from config ----- */

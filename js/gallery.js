@@ -83,8 +83,8 @@ const GalleryModule = (() => {
         <div class="card-img-wrap aspect-[4/3]">
           <img src="${item.image}" alt="${item.title}" loading="lazy" width="400" height="300"
                onerror="this.src='assets/images/gallery-product-1.svg'">
-          <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4">
-            <span class="text-white text-sm font-semibold">${item.title}</span>
+          <div class="gallery-caption absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-3 sm:p-4">
+            <span class="text-white text-sm font-semibold line-clamp-2">${item.title}</span>
             <span class="text-cyan-200 text-xs">${item.category}</span>
           </div>
         </div>

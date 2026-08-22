@@ -145,12 +145,12 @@ const ProductsModule = (() => {
                onerror="this.src='assets/images/product-1.svg'">
         </div>
         <div class="p-5">
-          <div class="flex items-center justify-between gap-2 mb-2">
-            <span class="badge">${escapeHtml(p.category)}</span>
-            <span class="text-xs text-gray-400">${escapeHtml(p.brand)}</span>
+          <div class="flex items-center justify-between gap-2 mb-2 min-w-0">
+            <span class="badge truncate max-w-[65%]">${escapeHtml(p.category)}</span>
+            <span class="text-xs text-gray-400 shrink-0 truncate max-w-[35%] text-right">${escapeHtml(p.brand)}</span>
           </div>
-          <h3 class="text-lg font-semibold mb-2" style="font-family:Outfit,sans-serif">${escapeHtml(p.name)}</h3>
-          <p class="text-sm mb-4" style="color:var(--text-muted);line-height:1.6">${escapeHtml(p.description)}</p>
+          <h3 class="text-lg font-semibold mb-2 line-clamp-2" style="font-family:Outfit,sans-serif">${escapeHtml(p.name)}</h3>
+          <p class="text-sm mb-4 line-clamp-3" style="color:var(--text-muted);line-height:1.6">${escapeHtml(p.description)}</p>
           <button type="button" class="btn btn-outline w-full text-sm py-2.5" data-product-id="${p.id}">
             View Details <i class="fa-solid fa-arrow-right text-xs"></i>
           </button>
@@ -167,19 +167,39 @@ const ProductsModule = (() => {
       return;
     }
 
+    const pages = paginationRange(currentPage, totalPages);
+
     let html = `<button class="page-btn" data-page="${currentPage - 1}" ${currentPage === 1 ? "disabled" : ""} aria-label="Previous">
       <i class="fa-solid fa-chevron-left"></i>
     </button>`;
 
-    for (let i = 1; i <= totalPages; i++) {
-      html += `<button class="page-btn ${i === currentPage ? "active" : ""}" data-page="${i}">${i}</button>`;
-    }
+    pages.forEach((p) => {
+      if (p === "…") {
+        html += `<span class="page-ellipsis" aria-hidden="true">…</span>`;
+        return;
+      }
+      html += `<button class="page-btn ${p === currentPage ? "active" : ""}" data-page="${p}" aria-label="Page ${p}">${p}</button>`;
+    });
 
     html += `<button class="page-btn" data-page="${currentPage + 1}" ${currentPage === totalPages ? "disabled" : ""} aria-label="Next">
       <i class="fa-solid fa-chevron-right"></i>
     </button>`;
 
     el.innerHTML = html;
+  }
+
+  function paginationRange(current, total) {
+    if (total <= 7) {
+      return Array.from({ length: total }, (_, i) => i + 1);
+    }
+    const set = new Set([1, total, current, current - 1, current + 1, current - 2, current + 2]);
+    const nums = [...set].filter((n) => n >= 1 && n <= total).sort((a, b) => a - b);
+    const range = [];
+    nums.forEach((n, i) => {
+      if (i && n - nums[i - 1] > 1) range.push("…");
+      range.push(n);
+    });
+    return range;
   }
 
   /** Product details modal */
@@ -190,24 +210,24 @@ const ProductsModule = (() => {
 
     body.innerHTML = `
       <div class="grid md:grid-cols-2 gap-0">
-        <div class="bg-gray-100 dark:bg-gray-800">
-          <img src="${escapeAttr(p.image)}" alt="${escapeAttr(p.name)}" class="w-full h-full object-cover min-h-[260px]"
+        <div class="bg-gray-100 dark:bg-gray-800 min-w-0">
+          <img src="${escapeAttr(p.image)}" alt="${escapeAttr(p.name)}" class="w-full h-full object-cover min-h-[200px] max-h-[280px] md:max-h-none md:min-h-[260px]"
                onerror="this.src='assets/images/product-1.svg'">
         </div>
-        <div class="p-6 md:p-8">
+        <div class="p-5 sm:p-6 md:p-8 md:pr-16 min-w-0">
           <span class="badge mb-3">${escapeHtml(p.category)}</span>
-          <h3 class="text-2xl font-semibold mb-2" style="font-family:Outfit,sans-serif">${escapeHtml(p.name)}</h3>
+          <h3 id="product-modal-title" class="text-xl sm:text-2xl font-semibold mb-2 pr-10 md:pr-0" style="font-family:Outfit,sans-serif">${escapeHtml(p.name)}</h3>
           <p class="text-sm mb-1" style="color:var(--text-muted)">Brand: <strong>${escapeHtml(p.brand)}</strong></p>
-          <p class="my-4 leading-relaxed" style="color:var(--text-muted)">${escapeHtml(p.description)}</p>
+          <p class="my-4 leading-relaxed text-sm sm:text-base" style="color:var(--text-muted)">${escapeHtml(p.description)}</p>
           <div class="p-4 rounded-xl mb-5" style="background:var(--bg-soft)">
             <p class="text-xs font-semibold uppercase tracking-wider mb-2" style="color:var(--primary)">Specifications</p>
             <p class="text-sm" style="color:var(--text-muted)">${escapeHtml(p.specification || "Specifications available on request.")}</p>
           </div>
-          <div class="flex flex-wrap gap-3">
-            <a href="${escapeAttr(p.catalog || "assets/catalog/brochure.pdf")}" class="btn btn-primary text-sm" download>
+          <div class="flex flex-col min-[420px]:flex-row flex-wrap gap-3">
+            <a href="${escapeAttr(p.catalog || "assets/catalog/brochure.pdf")}" class="btn btn-primary text-sm w-full min-[420px]:w-auto" download>
               <i class="fa-solid fa-download"></i> Download Specs
             </a>
-            <a href="#contact" class="btn btn-outline text-sm" onclick="document.getElementById('product-modal').classList.remove('open')">
+            <a href="#contact" class="btn btn-outline text-sm w-full min-[420px]:w-auto" onclick="ProductsModule.closeModal()">
               Request Quote
             </a>
           </div>
